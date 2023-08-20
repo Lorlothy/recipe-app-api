@@ -1,0 +1,399 @@
+{
+  "dir_path": "/home/paulo/Documentos/excel/",
+  "sheet": "BASE",
+  "db_conn_string": "sqlserver://admin:yia8HGhUWsLUDG9bG3ZF@db-trm.c7iv7kq2q2ds.us-east-1.rds.amazonaws.com:1433?database=trm",
+  "db_type": "SQL SERVER",
+  "table_name": "trm",
+  "columns": [
+    {
+      "sheet": "Data Atualização",
+      "database": "data_atualizacao",
+      "is_required": false,
+      "data_type": "datetime"
+    },
+    {
+      "sheet": "Nome do responsável pelo preenchimento",
+      "database": "nome_responsavel",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Local que trabalha",
+      "database": "local_que_trabalha",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Telefone",
+      "database": "telefone",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "e-mail",
+      "database": "email",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Unidade Federada",
+      "database": "uf",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Município",
+      "database": "municipio",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Ano de referência",
+      "database": "ano_ref",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Mês de referência",
+      "database": "mes_ref",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Tipo de entrada",
+      "database": "tipo_entrada",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Nº de módulos com defeito",
+      "database": "modulos_com_defeito",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Nº de exames com resultado de RIF resistente",
+      "database": "exames_rif_resistente",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Nº de exames com resultado de RIF sensível",
+      "database": "exames_rif_sensivel",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": " Nº de exames com resultado de RIF indeterminado",
+      "database": "exames_rif_indeterminado",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Nº de exames com resultado traços e RIF indeterminado",
+      "database": "exames_tracos_rif_resistente",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Nº de exames com resultado de MTB não detectado",
+      "database": "exames_mtb_nao_detectado",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Nº de exames com resultados INVÁLIDOS ou NO RESULTS",
+      "database": "exames_invalidos_ou_no_result",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Nº de perdas",
+      "database": "perdas",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Total de exames com erro",
+      "database": "total_exames_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "erro 1001",
+      "database": "erro_1001",
+      "is_required": false,
+      "data_type": "int"
+    }, {
+      "sheet": "erro 1002",
+      "database": "erro_1002",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 2005",
+      "database": "erro_2005",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 2006",
+      "database": "erro_2006",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 2008",
+      "database": "erro_2008",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 2014",
+      "database": "erro_2014",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 2127",
+      "database": "erro_2127",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 2037",
+      "database": "erro_2037",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 5006",
+      "database": "erro_5006",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 5007",
+      "database": "erro_5007",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 5008",
+      "database": "erro_5008",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 5011",
+      "database": "erro_5011",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "1-Foram encontrados outros resultados de erro?",
+      "database": "um_encontrado_outro_resultado_de_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "1-Código do erro",
+      "database": "um_codigo_do_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "1-Número de erros",
+      "database": "um_numero_de_erros",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "2-Foram encontrados outros resultados de erro?",
+      "database": "dois_encontrado_outro_resultado_de_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "2-Código do erro",
+      "database": "dois_codigo_do_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "2-Número de erros",
+      "database": "dois_numero_de_erros",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "3-Foram encontrados outros resultados de erro?",
+      "database": "tres_encontrado_outro_resultado_de_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "3-Código do erro",
+      "database": "tres_codigo_do_erro",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "3-Número de erros",
+      "database": "tres_numero_de_erros",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "4-Foram encontrados outros resultados de erro?",
+      "database": "quatro_encontrado_outro_resultado_de_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "4-Código do erro",
+      "database": "quatro_codigo_do_erro",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "4-Número de erros",
+      "database": "quatro_numero_de_erros",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "5-Foram encontrados outros resultados de erro?",
+      "database": "cinco_encontrado_outro_resultado_de_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "5-Código do erro",
+      "database": "cinco_codigo_do_erro",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "5-Número de erros",
+      "database": "cinco_numero_de_erros",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Número de testes realizados para acompanhamento",
+      "database": "teste_realizado_acompanhamento",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Anexo com os resultados dos laboratórios",
+      "database": "anexo_com_resultados_laboratórios",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Erros",
+      "database": "qnt_erro",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "MTB detectado",
+      "database": "mtb_detectado",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "MTB detectado traços",
+      "database": "mtb_detectado_tracos",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Exames realizados para diagnóstico",
+      "database": "exames_realizados_diagnostico",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Cartuchos utilizados",
+      "database": "cartuchos_utilizados",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Total de exames realizados",
+      "database": "total_exames_realizados",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Baciloscopia diagnóstico",
+      "database": "baciloscopia_diagnóstico",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "baciloscopias positivas",
+      "database": "baciloscopias_positivas",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "baciloscopias negativas",
+      "database": "baciloscopias_negativas",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "Cartuchos utilizados",
+      "database": "cartuchos_utilizados_2",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "exames TRM",
+      "database": "exames_trm",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 3027",
+      "database": "erro_3027",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 4009",
+      "database": "erro_4009",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 1018",
+      "database": "erro_1018",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "erro 2006",
+      "database": "erro_2006_2",
+      "is_required": false,
+      "data_type": "int"
+    },
+    {
+      "sheet": "erro 2016",
+      "database": "erro_2016",
+      "is_required": false,
+      "data_type": "string"
+    },
+    {
+      "sheet": "Ordem",
+      "database": "ordem",
+      "is_required": false,
+      "data_type": "int"
+    }
+  ]
+}
+
