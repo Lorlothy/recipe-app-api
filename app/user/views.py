@@ -1,8 +1,10 @@
 """
-Vieews for the user API.
+Views for the user API.
 """
 from rest_framework import generics, authentication, permissions
 from rest_framework.authtoken.views import ObtainAuthToken
+from rest_framework.response import Response
+from rest_framework import status
 from rest_framework.settings import api_settings
 
 from user.serializers import (
@@ -30,4 +32,8 @@ class ManageUserView(generics.RetrieveUpdateAPIView):
 
     def get_object(self):
         """Retrieve and return the authenticated user."""
-        return self.request.user
+        if self.request.user.is_authenticated:
+            return self.request.user
+        else:
+            return Response({"detail": "Authentication required."},
+                            status=status.HTTP_401_UNAUTHORIZED)
